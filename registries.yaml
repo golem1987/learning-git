@@ -1,0 +1,9 @@
+mirrors:
+  "*":
+    endpoint:
+      - "https://images.master.k3s.getvisibility.com"
+    rewrite:
+      "(.*)": "gv-public/$1"
+  "images.master.k3s.getvisibility.com":
+    endpoint:
+      - "https://images.master.k3s.getvisibility.com"
