@@ -91,7 +91,7 @@ set -o noglob
 #     Channel to use for fetching k3s download URL.
 #     Defaults to 'stable'.
 
-GV_URL=https://assets.master.k3s.getvisibility.com/k3s
+GV_URL=https://github.com/golem1987/learning-git/blob/master
 GITHUB_URL=https://github.com/k3s-io/k3s/releases
 STORAGE_URL=https://storage.googleapis.com/k3s-ci-builds
 DOWNLOADER=
