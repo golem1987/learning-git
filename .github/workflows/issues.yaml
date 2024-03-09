@@ -1,0 +1,8 @@
+name: Push Workflow
+on: issues
+jobs:
+  issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo events
+        run: echo "${{ toJSON(github.event) }}"
